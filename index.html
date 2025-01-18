@@ -34,8 +34,8 @@
             </nav>
         </div>
     </header>
+    
 
-    <!-- Server Status Bar -->
     <section id="hero" class="hero">
         <div class="hero-logo">
             <img src="images/Tropiclash Logo.png" alt="Tropiclash Logo" class="hero-banner">
@@ -52,120 +52,107 @@
             <i class="fas fa-chevron-down"></i>
         </div>
     </section>
-    <div class="server-status">
-        <div class="container">
-            <div class="status-item">
-                <i class="fas fa-signal"></i>
-                <span id="server-state">Online</span>
-            </div>
-            <div class="status-item">
-                <i class="fas fa-users"></i>
-                <span id="player-count">127 Players</span>
-            </div>
-            <div class="status-item">
-                <i class="fas fa-gamepad"></i>
-                <span>1.21 +</span>
-            </div>
-            <div class="status-item">
-                <span class="ip-address">play.tropiclash.net</span>
-                <button class="copy-ip" onclick="copyIP()">Copy IP</button>
-            </div>
-        </div>
-    </div>
 
-    <section id="features" class="features">
-        <div class="container">
-            <h2>Discover Your Adventure</h2>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <i class="fas fa-map-marked-alt"></i>
-                    <h3>Vast World</h3>
-                    <p>Explore unique islands, hidden treasures, and mysterious dungeons in our tropical paradise</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fas fa-location-dot"></i>
-                    <h3>Epic Quests</h3>
-                    <p>Embark on story-driven adventures with unique characters and challenging missions</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fas fa-users"></i>
-                    <h3>Community</h3>
-                    <p>Join thousands of players in building, trading, and adventuring together</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fas fa-star"></i>
-                    <h3>Custom Content</h3>
-                    <p>Experience unique items, mobs, and mechanics found nowhere else</p>
-                </div>
+    
+
+    <section class="season-pass">
+        <div class="season-content">
+            <div class="season-text">
+                <div class="date-badge">NOW - NOV 27</div>
+                <h2 class="season-subtitle">Tropiclash Season 1</h2>
+                <h1 class="season-title">Walk The<br>Plank</h1>
+                <a href="#" class="season-btn">Get Astropass</a>
+            </div>
+            <div class="season-image">
+                <img src="/images/Tropiclash Logo S1.png" alt="Season Pass Character" style="width: 25rem; height: auto;">
             </div>
         </div>
     </section>
 
-    <section id="news" class="news">
+    <section id="faq" class="faq">
         <div class="container">
-            <h2>Latest Updates</h2>
-            <div class="news-grid">
-                <article class="news-card">
-                    <div class="news-image">
-                        <img src="/images/update-1.jpg" alt="New Island Update">
-                    </div>
-                    <div class="news-content">
-                        <span class="news-date">December 20, 2024</span>
-                        <h3>New Island: The Lost Shores</h3>
-                        <p>Discover the mysteries of our newest region, featuring dangerous creatures and valuable treasures.</p>
-                        <a href="/news/lost-shores" class="btn btn-small">Read More</a>
-                    </div>
-                </article>
-                <!-- More news cards... -->
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How can I apply for staff?</h3>
+                    <p class="faq-answer">You can apply for staff by pressing the "Apply for Staff" button in the Join Our Team section!</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How can I play in Destiny Games?</h3>
+                    <p class="faq-answer">Destiny Games is an invite-only event, however you can apply for testing today!</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I get a free ExpHost Server?</h3>
+                    <p class="faq-answer">No, as a company we need to make a profit and we can not do that with people having free servers.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How do I join Tropiclash?</h3>
+                    <p class="faq-answer">Tropiclash will be a public Minecraft Java server on the latest versions of Minecraft, but it is still in development. Stay tuned for updates!</p>
+                   
+                </div>
+                <div class="faq-item">
+                  <h3>If I’m being harassed by another player, do I harass them back?</h3>
+                  <p class="faq-answer">Yes. They smell.</p>
+                 
+              </div>
             </div>
         </div>
     </section>
-
-    <section id="world-map" class="world-map">
-        <div class="container">
-            <h2>World Map</h2>
-            <div class="map-container">
-                <div id="interactive-map">
-                    <!-- Map points will be added dynamically -->
-                </div>
-                <div class="map-legend">
-                    <h3>Regions</h3>
-                    <ul>
-                        <li><span class="legend-dot starter"></span> Starter Islands</li>
-                        <li><span class="legend-dot danger"></span> Danger Zones</li>
-                        <li><span class="legend-dot quest"></span> Quest Hubs</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Discord Widget -->
-    <section id="community" class="community">
-        <div class="container">
-            <h2>Join Our Community</h2>
-            <div class="discord-container">
-                <iframe src="https://discord.com/widget?id=YOUR_DISCORD_ID&theme=dark" 
-                        width="350" 
-                        height="500" 
-                        allowtransparency="true" 
-                        frameborder="0"
-                        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
   
-<footer>
-    <div class="container">
-        <p>&copy; 2024 ExpHost. All rights reserved.</p>
-        <ul class="footer-links">
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-    </div>
-</footer>
-ofox Studios Production. All rights reserved.</p>
-        </div>
-    </footer>
+      <footer>
+          <a href="https://astrofoxstudios.com">
+              <img src="https://www.astrofoxstudios.com/images/image.png" alt="AstroFox Studios" class="footer-logo">
+          </a>
+          <div class="social-links">
+            <a href="https://www.youtube.com/channel/UCamVCCPTcTfXqHCOJp5i0Fw"><i class="fab fa-youtube"></i></a>
+            <a href="https://twitter.com/AstroFoxStudios"><i class="fab fa-twitter"></i></a>
+            <a href="https://discord.gg/aDHpp2fQn3"><i class="fab fa-discord"></i></a>
+          </div>
+          <p>&copy; 2024 AstroFox Studios. All rights reserved.</p>
+      </footer>
 
-    <script src="script.js"></script>
+    <script>
+        // Carousel functionality
+        const carouselContainer = document.querySelector('.carousel-container');
+        const images = document.querySelectorAll('.carousel-image');
+        const prevButton = document.querySelector('.carousel-prev');
+        const nextButton = document.querySelector('.carousel-next');
+
+        let currentIndex = 0;
+
+        function updateCarousel() {
+            carouselContainer.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+
+        nextButton.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % images.length;
+            updateCarousel();
+        });
+
+        prevButton.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            updateCarousel();
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('h3');
+                const answer = item.querySelector('.faq-answer');
+                
+                question.addEventListener('click', () => {
+                    answer.classList.toggle('active');
+                    
+                    faqItems.forEach(otherItem => {
+                        if (otherItem !== item) {
+                            otherItem.querySelector('.faq-answer').classList.remove('active');
+                        }
+                    });
+                });
+            });
+        });
+    </script>
 </body>
 </html>
+
+
