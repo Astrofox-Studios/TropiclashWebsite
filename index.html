@@ -69,6 +69,21 @@
         </div>
     </section>
 
+    <section id="join-party">
+        <div class="join-party">
+            <div class="join-content">
+                <div class="join-image">
+                    <img src="images/model.png" alt="Tropiclash Island" class="island-image">
+                </div>
+                <div class="season-text">
+                    <h2 class="season-subtitle">Join the party!</h2>
+                    <h1 class="season-title">Click to<br>Join</h1>
+                    <button class="season-btn" onclick="copyToClipboard('play.tropiclash.net')" style="border: 0px;">play.tropiclash.net</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="faq" class="faq">
         <div class="container">
             <h2>Frequently Asked Questions</h2>
@@ -108,7 +123,7 @@
             <a href="https://twitter.com/AstroFoxStudios"><i class="fab fa-twitter"></i></a>
             <a href="https://discord.gg/aDHpp2fQn3"><i class="fab fa-discord"></i></a>
           </div>
-          <p>&copy; 2024 AstroFox Studios. All rights reserved.</p>
+          <p>&copy; 2025 AstroFox Studios. All rights reserved.</p>
       </footer>
 
     <script>
@@ -151,6 +166,14 @@
                 });
             });
         });
+
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert('Server IP copied to clipboard!');
+            }).catch(err => {
+                console.error('Could not copy text: ', err);
+            });
+        }
     </script>
 </body>
 </html>
