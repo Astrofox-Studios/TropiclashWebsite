@@ -576,8 +576,8 @@ section {
 
     .join-image img {
         margin-right: 0;
-        margin-left: 4rem;
-        max-width: 20rem;
+        max-width: 25rem;
+        margin-left: -1rem;
         height: auto;
         
     }
