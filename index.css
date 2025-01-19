@@ -503,16 +503,21 @@ footer p {
         max-height: 50rem;
         display: block;
     }
-    .hero-buttons {
-        margin-left: 0;
-        margin-right: 0;
-        gap: 0;
+}
+
+
+@media screen and (max-width: 480px) {
+    .hero h1 {
+        font-size: 3rem;
+        align-items: center;
     }
-    
-    .hero-buttons a {
-        margin-left: 0;
-        margin-right: 3px;
-        gap: 1rem;
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 80%;
     }
 }
 
